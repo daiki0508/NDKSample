@@ -8,7 +8,7 @@ add_library(
   SHARED
 
   # C/C++ソースへの相対パス指定
-  hello.cpp
+        hello.cpp
 )
 
 target_link_libraries(
