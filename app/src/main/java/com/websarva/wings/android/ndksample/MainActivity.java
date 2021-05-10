@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         textView.setText(result);
     }
 
-    public native String getMessage(String msg);
+    privte native String getMessage(String msg);
 
     static {
         System.loadLibrary("hello");
